@@ -21,7 +21,7 @@ The ENVI software has advanced tools to process and analyze hyperspectral data. 
 
 ### Data Description
 
-The exercises in this lab will use georegistered and atmospherically corrected hyperspectral AISA data from 2006 of British Columbia’s Gulf Islands region. This data has been spectrally subset into 411 channels between 430 and 2400 nanometers. A n.asc format Spectral Library, which consists of eight spectra measured over the wavelength range of 350 to 2500 nanometers using an ASD FieldSpec Pro FR spectroradiometer has also been included.
+The exercises in this lab will use georegistered and atmospherically corrected hyperspectral AISA data from 2006 of British Columbia’s Gulf Islands region. This data has been spectrally subset into 411 channels between 430 and 2400 nanometers. A .asc format Spectral Library, which consists of eight spectra measured over the wavelength range of 350 to 2500 nanometers using an ASD FieldSpec Pro FR spectroradiometer has also been included.
 
 ------------------------------------------------------------------------
 
