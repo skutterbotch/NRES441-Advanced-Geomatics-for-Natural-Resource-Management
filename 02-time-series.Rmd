@@ -45,7 +45,7 @@ knitr::include_graphics('images/02/03-series.png')
 
 ### Task 1: Import and build raster time series
 
-**Step 1:** Open EVI > File > New > Build Raster Series. Click Add Raster > Add Filename and navigate to the folder containing the .tif files for this lab. Hold the "Shift" key down and select all the .tif files > Open.
+**Step 1:** Open ENVI > File > New > Build Raster Series. Click Add Raster > Add Filename and navigate to the folder containing the .tif files for this lab. Hold the "Shift" key down and select all the .tif files > Open.
 
 In the Rasters panel look at the filenames and ensure that they are listed in chronological order. Check "Order by Time". Name the output "time_series" and save it to the same folder as the input rasters > OK. 
 
@@ -116,7 +116,7 @@ Click on the dashed lines of the "Generate Filename" tool.
 
 Right-click the connection between "Generate Filename" and "Spectral Index" > Edit Connection. Connect "Output Filename" and "Output Raster URI". This will give the unique filename to the output raster. 
 
-#### Q4) Describe in words what each node in the model does and what its input data are. Provde a description for each node in the workflow.  
+#### Q4) Provide a description of each node in the model workflow. Also mention what each node's input data is.   
 
 When you are done click Run. After the model finishes running you should see the NBR layers appear in the Layer Manager. The index values appended to each layer run from 00 (first layer in the time-series) to 015 (last layer).  
 
@@ -140,7 +140,7 @@ You should now see a new layer in the Layer Manager and on the map. The default 
 
 Next, we will rename the bands so it is easier to understand what is happening. Right click on the "NBR_stack" in the Layer Manager > View Metadata > Edit Metadata > Display > Click on the folder "Import from ASCII" > open the "band_names.txt" file. The bands in the Layer Manager should now be labelled with their respective image years.
 
-#### Q7) Why do some areas of this false color composite appear red and others black? (Hint: You can use the cursur tool to select pixels and see the NBR values for each band.)
+#### Q7) Why do some areas of this false color composite appear red and others black? (Hint: You can use the cursor tool to select pixels and see the NBR values for each band.)
 
 ``` {r, echo=FALSE, out.width = "70%", fig.align = 'center'}
 knitr::include_graphics('images/02/03-nbrstack.png')
